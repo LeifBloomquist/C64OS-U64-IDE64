@@ -10,7 +10,7 @@ But, it's not your everyday Commodore 64.   I've souped up my C64 setup to the e
 * [IDE64](https://www.ide64.org/) from the IDE64 Team
 * [C64OS](https://c64os.com/) from Opcoders Inc (Greg Nacu)  [(GitHub)](https://github.com/OpCoders-Inc)
 
-My setup:
+My setup.  64KB RAM, 16MB REU, 48MHz acceleration, 64GB internal USB, 64GB Compact Flash card.
 
 ![Ultimate 64](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/Photos/u64-2024-sm.jpg)
 
