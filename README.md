@@ -20,11 +20,11 @@ As you might imagine, this is pushing the limits of the good old C64 pretty hard
 
 ### Addressing
 
-The following settings worked:
+The following settings worked, including REU and network access via the U64's Swiftlink emulation:
 
 * IDE64 on $DE00 (hardcoded)
 * REU in the U64 on $DF00 (hardcoded)
-* ACIA / SwiftLink Emulation from the U64 on $DF80 (configurable with Ultimate 64)
+* ACIA / SwiftLink Emulation from the U64 on $DF80/NMI (configurable with Ultimate 64)
 
 ### Port Configuration
 
