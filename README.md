@@ -49,4 +49,4 @@ In File Manager, under //os//drivers/ :
 
 ### Configuration File
 
-My configuration file can be found [here] [GitHub Pages](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/C64OS-IDE64.cfg) for references.   You will need to adjust some entries for your network and SID configuration, etc.
+My configuration file can be found [here](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/Configuration/C64OS-IDE64.cfg) for references.   You will need to adjust some entries for your network and SID configuration, etc.
