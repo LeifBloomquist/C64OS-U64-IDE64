@@ -11,7 +11,7 @@ But, it's not your everyday Commodore 64.   I've souped up my C64 setup to the e
 * [C64OS](https://c64os.com/) from Opcoders Inc (Greg Nacu)  [(GitHub)](https://github.com/OpCoders-Inc)
 
 My setup:
-![Ultimate 64](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/ultimate64setup-2024.jpg)
+![Ultimate 64](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/u64-2024-sm.jpg)
 
 ### Configuration
 
