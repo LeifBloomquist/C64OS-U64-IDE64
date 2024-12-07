@@ -43,8 +43,8 @@ As of Beta 1.07, to trick C64OS into using the SwiftLink Emulation at $DF80  (Th
 
 In File Manager, under //os//drivers/ :
 
-* Find the file nhd.sldf.u6 and rename it to a new file nhd.sldf**0**.u6 using File Info
-* Find the file nhd.sldf8.u6 and copy it to a file nhd.sldf.u6 using File Info
+* Find the file nhd.sldf.u6 and **rename** it to a new file nhd.sldf**0**.u6 using File Info
+* Find the file nhd.sldf8.u6 and **copy** it to nhd.sldf.u6 using File Info
 
 
 ### Configuration File
