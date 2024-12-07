@@ -11,6 +11,7 @@ But, it's not your everyday Commodore 64.   I've souped up my C64 setup to the e
 * [C64OS](https://c64os.com/) from Opcoders Inc (Greg Nacu)  [(GitHub)](https://github.com/OpCoders-Inc)
 
 My setup:
+
 ![Ultimate 64](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/u64-2024-sm.jpg)
 
 ### Configuration
@@ -27,8 +28,14 @@ The following settings worked:
 
 ### Port Configuration
 
+Additionally, the U64 cartridge port settings have go be made manually, to force it to recognize the IDE64 (external) and emulated REU (internal) at the same time:
 
+* Bus Sharing - I/O1 = External
+* Bus Sharing - I/O2 = Internal
 
+Bus Operation Mode also has to be set to Dynamic for the IDE64 to function properly.
+
+![Settings](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/screenshots/u64-cart-settings.png)
 
 
 ### Configuration File
