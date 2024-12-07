@@ -28,7 +28,7 @@ The following settings worked, including REU and network access via the U64's Sw
 
 ### Port Configuration
 
-Additionally, the U64 cartridge port settings have go be made manually, to force it to recognize the IDE64 (external) and emulated REU (internal) at the same time:
+Additionally, the U64 cartridge port settings have to be made manually, to force it to recognize the IDE64 (external) and emulated REU (internal) at the same time:
 
 * Bus Sharing - I/O1 = External
 * Bus Sharing - I/O2 = Internal
