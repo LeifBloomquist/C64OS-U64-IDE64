@@ -12,7 +12,7 @@ But, it's not your everyday Commodore 64.   I've souped up my C64 setup to the e
 
 My setup:
 
-![Ultimate 64](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/u64-2024-sm.jpg)
+![Ultimate 64](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/Photos/u64-2024-sm.jpg)
 
 ### Configuration
 
@@ -24,7 +24,7 @@ The following settings worked:
 
 * IDE64 on $DE00 (hardcoded)
 * REU in the U64 on $DF00 (hardcoded)
-* ACIA / SwiftLink Emulation from the U64 on $DF80 (configurable)
+* ACIA / SwiftLink Emulation from the U64 on $DF80 (configurable with Ultimate 64)
 
 ### Port Configuration
 
@@ -35,7 +35,16 @@ Additionally, the U64 cartridge port settings have go be made manually, to force
 
 Bus Operation Mode also has to be set to Dynamic for the IDE64 to function properly.
 
-![Settings](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/screenshots/u64-cart-settings.png)
+![Settings](https://github.com/LeifBloomquist/C64OS-U64-IDE64/blob/main/Screenshots/u64-cart-settings.png)
+
+### C64OS Configuration
+
+As of Beta 1.07, to trick C64OS into using the SwiftLink Emulation at $DF80  (This may change in future versions)
+
+In File Manager, under //os//drivers/ :
+
+* Find the file nhd.sldf.u6 and rename it to a new file nhd.sldf**0**.u6 using File Info
+* Find the file nhd.sldf8.u6 and copy it to a file nhd.sldf.u6 using File Info
 
 
 ### Configuration File
