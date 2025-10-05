@@ -39,7 +39,20 @@ Bus Operation Mode also has to be set to Dynamic for the IDE64 to function prope
 
 ### C64OS Configuration
 
-As of Beta 1.07, to trick C64OS into using the SwiftLink Emulation at $DF80  (This may change in future versions)
+#### For v1.08
+In v1.08, the $DF80 driver can now be chosen directly from the Network Utility.  Drivers get pulled into Network Utility automatically by pattern: 
+
+//os/drivers/:nhd.????.??
+
+* slde.u6 is for $DE00
+* sldf.u6 is for $DF00
+* sld+.u6 is for $DF80  (new)
+
+See https://www.c64os.com/c64os/networkingguide/  for details.
+
+#### For v1.07
+
+In v1.07, to trick C64OS into using the SwiftLink Emulation at $DF80:
 
 In File Manager, under //os//drivers/ :
 
